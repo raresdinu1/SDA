@@ -10,19 +10,19 @@ public class Ex1_2 {
         road = JOptionPane.showInputDialog("Introduceti tipul de drum:");
         var rd = road.toLowerCase();
         if (rd.equals("oras")) {
-            System.out.println("Viteza recomandata in oras este de 50 Km/h");
+            System.out.println("Viteza recomandata in "+ rd +" este de 50 Km/h");
         }
         else if(rd.equals("zona rezidentiala")){
-            System.out.println("Viteza recomandata in Zona Rezidentiala este de 30 Km/h");
+            System.out.println("Viteza recomandata in "+ rd +" este de 30 Km/h");
         }
         else if(rd.equals("drum express")){
-            System.out.println("Viteza recomandata in Drum Express este de 100 Km/h");
+            System.out.println("Viteza recomandata in "+ rd +" este de 100 Km/h");
         }
         else if(rd.equals("autostrada")){
-            System.out.println("Viteza recomandata in Autostrada este de 130 Km/h");
+            System.out.println("Viteza recomandata in "+ rd +" este de 130 Km/h");
         }
         else {
-            System.out.println(" 0 ");
+            System.out.println("Cuvantul " + rd + "nu este categorizat ca tip de viteza");
         }
     }
 
