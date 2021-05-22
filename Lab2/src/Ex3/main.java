@@ -9,6 +9,5 @@ public class main {
         System.out.println(customer.getCompleteName());
         System.out.println(customer.getAdress().showFullAdress());
         System.out.println(customer.getPaymentMethod().getType());
-        System.out.println(customer.getFirstname() + " Have " + customer.getAge()+" years old.");
     }
 }
